@@ -1,4 +1,4 @@
-(defproject material-ui-wrapper "0.1.0-SNAPSHOT"
+(defproject material-ui-wrapper "0.1.0"
   :description "Small wrapper around cljsjs/material-ui for usage with reagent"
   
   :url "http://example.com/FIXME"
