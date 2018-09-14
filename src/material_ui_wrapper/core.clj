@@ -1,6 +1,6 @@
-(ns material-ui-wrapper.core)
+(ns material-ui-wrapper.core
+  (:require-macros
+    [material-ui-wrapper.react-mui :refer [export-react-mui-components]])
+  (:require [reagent.core])) 
 
-(defn foo
-  "I don't do a whole lot."
-  [x]
-  (println x "Hello, World!"))
+(export-react-mui-components)
